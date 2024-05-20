@@ -1,0 +1,9 @@
+.footer {
+    margin-top: auto;
+    border:solid blue 2px;
+}
+
+.copyright {
+    font-size: 1.2rem;
+    color: var(--color-light--1);
+}

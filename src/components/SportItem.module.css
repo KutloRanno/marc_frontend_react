@@ -1,0 +1,38 @@
+.sportItem {
+    border: 2px #154103 solid;
+
+    display: flex;
+    gap: 1.6rem;
+    /*align-items: center;*/
+
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
+
+.addButton{
+    height: 3rem;
+    width:4rem;
+    /*aspect-ratio: 1;*/
+    border-radius: 20%;
+    border: none;
+    background-color: #1fa1f1;
+    color: var(--color-light--2);
+    font-size: 1.6rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-underline: none;
+}
+
+.deleteButton{
+    height: 2rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--color-dark--1);
+    color: var(--color-light--2);
+    font-size: 1.6rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.2s;
+}
